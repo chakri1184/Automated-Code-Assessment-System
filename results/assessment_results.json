@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-05-09T15:58:15.813068",
+  "timestamp": "2026-05-10T12:00:34.622682",
   "total_submissions": 30,
-  "successful_compilations": 25,
-  "failed_compilations": 5,
+  "successful_compilations": 24,
+  "failed_compilations": 6,
   "results": {
-    "S1": {
-      "student_id": "S1",
+    "student01": {
+      "student_id": "student01",
       "scores": {
-        "structure": 96.88,
+        "structure": 100.0,
         "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 17.18
+        "test_cases": 100.0,
+        "originality": 4.85
       },
-      "final_score": 76.81,
+      "final_score": 80.97,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -24,35 +24,15 @@
       "compilation_status": "Success",
       "error": null
     },
-    "S2": {
-      "student_id": "S2",
+    "student02": {
+      "student_id": "student02",
       "scores": {
-        "structure": 98.44,
+        "structure": 100.0,
         "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 23.97
+        "test_cases": 100.0,
+        "originality": 71.52
       },
-      "final_score": 78.48,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S3": {
-      "student_id": "S3",
-      "scores": {
-        "structure": 95.31,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 60.81
-      },
-      "final_score": 85.22,
+      "final_score": 94.3,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -64,299 +44,36 @@
       "compilation_status": "Success",
       "error": null
     },
-    "S4": {
-      "student_id": "S4",
+    "student03": {
+      "student_id": "student03",
       "scores": {
-        "structure": 95.31,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 20.91
-      },
-      "final_score": 77.24,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S5": {
-      "student_id": "S5",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 34.01
-      },
-      "final_score": 80.18,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S6": {
-      "student_id": "S6",
-      "scores": {
-        "structure": 98.44,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 14.9
-      },
-      "final_score": 76.67,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S7": {
-      "student_id": "S7",
-      "scores": {
-        "structure": 64.06,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 46.39
-      },
-      "final_score": 64.09,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S8": {
-      "student_id": "S8",
-      "scores": {
-        "structure": 62.5,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 43.09
-      },
-      "final_score": 63.12,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S9": {
-      "student_id": "S9",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 17.62
-      },
-      "final_score": 64.9,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S10": {
-      "student_id": "S10",
-      "scores": {
-        "structure": 60.94,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 55.37
-      },
-      "final_score": 65.26,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S11": {
-      "student_id": "S11",
-      "scores": {
-        "structure": 65.62,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 67.69
-      },
-      "final_score": 68.66,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S12": {
-      "student_id": "S12",
-      "scores": {
-        "structure": 62.5,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 47.51
-      },
-      "final_score": 64.0,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S13": {
-      "student_id": "S13",
-      "scores": {
-        "structure": 60.94,
-        "syntax": 80,
-        "test_cases": 0,
-        "originality": 54.97
-      },
-      "final_score": 55.18,
-      "category": "Average",
-      "feedback": [
-        " Code failed to compile. Test cases could not be evaluated.",
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S13.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S13.c:5:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    5 |     scanf(\"%d\",&n);\n      |     ^~~~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S13.c:5:17: error: 'n' undeclared (first use in this function)\n    5 |     scanf(\"%d\",&n);\n      |                 ^\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S13.c:5:17: note: each undeclared identifier is reported only once for each function it appears in\n"
-    },
-    "S14": {
-      "student_id": "S14",
-      "scores": {
-        "structure": 60.94,
-        "syntax": 90,
-        "test_cases": 0,
-        "originality": 47.37
-      },
-      "final_score": 57.66,
-      "category": "Average",
-      "feedback": [
-        " Code failed to compile. Test cases could not be evaluated.",
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S14.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S14.c:7:5: error: expected declaration or statement at end of input\n    7 |     return 0;\n      |     ^~~~~~\n"
-    },
-    "S15": {
-      "student_id": "S15",
-      "scores": {
-        "structure": 60.94,
-        "syntax": 100,
-        "test_cases": 0.0,
-        "originality": 54.97
-      },
-      "final_score": 63.18,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S16": {
-      "student_id": "S16",
-      "scores": {
-        "structure": 60.94,
-        "syntax": 80,
-        "test_cases": 0,
-        "originality": 54.97
-      },
-      "final_score": 55.18,
-      "category": "Average",
-      "feedback": [
-        " Code failed to compile. Test cases could not be evaluated.",
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S16.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S16.c:5:11: error: expected ';' before string constant\n    5 |     printf\"%d\",n);\n      |           ^~~~\n      |           ;\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S16.c:5:17: error: expected statement before ')' token\n    5 |     printf\"%d\",n);\n      |                 ^\n"
-    },
-    "S17": {
-      "student_id": "S17",
-      "scores": {
-        "structure": 60.94,
+        "structure": 34.38,
         "syntax": 70,
         "test_cases": 0,
-        "originality": 54.97
+        "originality": 56.68
       },
-      "final_score": 51.18,
-      "category": "Average",
+      "final_score": 46.21,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Fix syntax errors and ensure correct syntax usage.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S17.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S17.c:5:11: warning: missing terminating \" character\n    5 |     scanf(\"%d,&n);\n      |           ^\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S17.c:5:11: error: missing terminating \" character\n    5 |     scanf(\"%d,&n);\n      |           ^~~~~~~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S17.c:6:5: error: expected expression before 'return'\n    6 |     return 0;\n      |     ^~~~~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S17.c:6:14: error: expected ';' before '}' token\n    6 |     return 0;\n      |              ^\n      |              ;\n    7 | }\n      | ~             \n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'rev'\n    3 |     int n rev = 0;\n      |           ^~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: error: 'rev' undeclared (first use in this function)\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: note: each undeclared identifier is reported only once for each function it appears in\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:4:17: error: 'n' undeclared (first use in this function)\n    4 |     scanf(\"%d\",&n);\n      |                 ^\n"
     },
-    "S18": {
-      "student_id": "S18",
+    "student04": {
+      "student_id": "student04",
       "scores": {
-        "structure": 57.81,
+        "structure": 35.94,
         "syntax": 90,
         "test_cases": 0,
-        "originality": 70.42
+        "originality": 51.2
       },
-      "final_score": 61.65,
+      "final_score": 53.43,
       "category": "Average",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
@@ -367,237 +84,521 @@
         "Average performance. Needs improvement in some areas."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcstonye0\\S18.c:3:1: error: expected declaration specifiers or '...' before '{' token\n    3 | {\n      | ^\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student04.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student04.c:4:19: error: expected ';' before 'printf'\n    4 |     scanf(\"%d\",&n)\n      |                   ^\n      |                   ;\n    5 |     printf(\"%d\", rev);\n      |     ~~~~~~         \n"
     },
-    "S19": {
-      "student_id": "S19",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 20.0,
-        "originality": 17.62
-      },
-      "final_score": 66.9,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S20": {
-      "student_id": "S20",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 0.0,
-        "originality": 21.78
-      },
-      "final_score": 63.73,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S21": {
-      "student_id": "S21",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 0.0,
-        "originality": 18.94
-      },
-      "final_score": 63.16,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S22": {
-      "student_id": "S22",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 0.0,
-        "originality": 24.23
-      },
-      "final_score": 64.22,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S23": {
-      "student_id": "S23",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 20.0,
-        "originality": 18.06
-      },
-      "final_score": 66.99,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S24": {
-      "student_id": "S24",
-      "scores": {
-        "structure": 92.19,
-        "syntax": 100,
-        "test_cases": 10.0,
-        "originality": 29.64
-      },
-      "final_score": 66.37,
-      "category": "Average",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Your program is failing test cases. Check logic and edge cases.",
-        "High similarity detected. Try to write original code.",
-        "Average performance. Needs improvement in some areas."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S25": {
-      "student_id": "S25",
-      "scores": {
-        "structure": 78.12,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 38.18
-      },
-      "final_score": 77.26,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S26": {
-      "student_id": "S26",
-      "scores": {
-        "structure": 98.44,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 31.51
-      },
-      "final_score": 79.99,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S27": {
-      "student_id": "S27",
-      "scores": {
-        "structure": 96.88,
-        "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 47.55
-      },
-      "final_score": 82.88,
-      "category": "Good",
-      "feedback": [
-        "Good code structure.",
-        "Syntax is mostly correct.",
-        "Good handling of test cases.",
-        "High similarity detected. Try to write original code.",
-        "Overall performance is excellent."
-      ],
-      "compilation_status": "Success",
-      "error": null
-    },
-    "S28": {
-      "student_id": "S28",
+    "student05": {
+      "student_id": "student05",
       "scores": {
         "structure": 93.75,
         "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 53.97
+        "test_cases": 0.0,
+        "originality": 30.7
       },
-      "final_score": 83.54,
+      "final_score": 64.89,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student06": {
+      "student_id": "student06",
+      "scores": {
+        "structure": 65.62,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 32.08
+      },
+      "final_score": 67.04,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student07": {
+      "student_id": "student07",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 23.41
+      },
+      "final_score": 72.18,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student08": {
+      "student_id": "student08",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
       "category": "Good",
       "feedback": [
         "Good code structure.",
         "Syntax is mostly correct.",
         "Good handling of test cases.",
-        "Code originality is acceptable.",
+        "High similarity detected. Try to write original code.",
         "Overall performance is excellent."
       ],
       "compilation_status": "Success",
       "error": null
     },
-    "S29": {
-      "student_id": "S29",
+    "student09": {
+      "student_id": "student09",
       "scores": {
-        "structure": 67.19,
+        "structure": 100.0,
         "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 66.43
+        "test_cases": 50.0,
+        "originality": 24.16
       },
-      "final_score": 80.72,
+      "final_score": 74.83,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student10": {
+      "student_id": "student10",
+      "scores": {
+        "structure": 65.62,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 32.49
+      },
+      "final_score": 67.12,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student11": {
+      "student_id": "student11",
+      "scores": {
+        "structure": 34.38,
+        "syntax": 90,
+        "test_cases": 0,
+        "originality": 53.58
+      },
+      "final_score": 53.59,
+      "category": "Average",
+      "feedback": [
+        " Code failed to compile. Test cases could not be evaluated.",
+        "Improve code structure and modularity (use functions properly).",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "Code originality is acceptable.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Failed",
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student11.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student11.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+    },
+    "student12": {
+      "student_id": "student12",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
       "category": "Good",
       "feedback": [
         "Good code structure.",
         "Syntax is mostly correct.",
         "Good handling of test cases.",
-        "Code originality is acceptable.",
+        "High similarity detected. Try to write original code.",
         "Overall performance is excellent."
       ],
       "compilation_status": "Success",
       "error": null
     },
-    "S30": {
-      "student_id": "S30",
+    "student13": {
+      "student_id": "student13",
       "scores": {
-        "structure": 96.88,
+        "structure": 100.0,
         "syntax": 100,
-        "test_cases": 70.0,
-        "originality": 36.25
+        "test_cases": 50.0,
+        "originality": 24.16
       },
-      "final_score": 80.63,
+      "final_score": 74.83,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student14": {
+      "student_id": "student14",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student15": {
+      "student_id": "student15",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student16": {
+      "student_id": "student16",
+      "scores": {
+        "structure": 34.38,
+        "syntax": 90,
+        "test_cases": 0,
+        "originality": 53.58
+      },
+      "final_score": 53.59,
+      "category": "Average",
+      "feedback": [
+        " Code failed to compile. Test cases could not be evaluated.",
+        "Improve code structure and modularity (use functions properly).",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "Code originality is acceptable.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Failed",
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student16.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student16.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+    },
+    "student17": {
+      "student_id": "student17",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 50.0,
+        "originality": 24.16
+      },
+      "final_score": 74.83,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student18": {
+      "student_id": "student18",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student19": {
+      "student_id": "student19",
+      "scores": {
+        "structure": 65.62,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 32.49
+      },
+      "final_score": 67.12,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student20": {
+      "student_id": "student20",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student21": {
+      "student_id": "student21",
+      "scores": {
+        "structure": 34.38,
+        "syntax": 90,
+        "test_cases": 0,
+        "originality": 53.58
+      },
+      "final_score": 53.59,
+      "category": "Average",
+      "feedback": [
+        " Code failed to compile. Test cases could not be evaluated.",
+        "Improve code structure and modularity (use functions properly).",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "Code originality is acceptable.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Failed",
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student21.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student21.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+    },
+    "student22": {
+      "student_id": "student22",
+      "scores": {
+        "structure": 65.62,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 32.49
+      },
+      "final_score": 67.12,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student23": {
+      "student_id": "student23",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student24": {
+      "student_id": "student24",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student25": {
+      "student_id": "student25",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 50.0,
+        "originality": 24.16
+      },
+      "final_score": 74.83,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student26": {
+      "student_id": "student26",
+      "scores": {
+        "structure": 34.38,
+        "syntax": 90,
+        "test_cases": 0,
+        "originality": 53.58
+      },
+      "final_score": 53.59,
+      "category": "Average",
+      "feedback": [
+        " Code failed to compile. Test cases could not be evaluated.",
+        "Improve code structure and modularity (use functions properly).",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "Code originality is acceptable.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Failed",
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student26.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student26.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+    },
+    "student27": {
+      "student_id": "student27",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
+      "category": "Good",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Good handling of test cases.",
+        "High similarity detected. Try to write original code.",
+        "Overall performance is excellent."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student28": {
+      "student_id": "student28",
+      "scores": {
+        "structure": 65.62,
+        "syntax": 100,
+        "test_cases": 37.5,
+        "originality": 32.49
+      },
+      "final_score": 67.12,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student29": {
+      "student_id": "student29",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 50.0,
+        "originality": 24.16
+      },
+      "final_score": 74.83,
+      "category": "Average",
+      "feedback": [
+        "Good code structure.",
+        "Syntax is mostly correct.",
+        "Your program is failing test cases. Check logic and edge cases.",
+        "High similarity detected. Try to write original code.",
+        "Average performance. Needs improvement in some areas."
+      ],
+      "compilation_status": "Success",
+      "error": null
+    },
+    "student30": {
+      "student_id": "student30",
+      "scores": {
+        "structure": 100.0,
+        "syntax": 100,
+        "test_cases": 100.0,
+        "originality": 22.87
+      },
+      "final_score": 84.57,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -611,8 +612,8 @@
     }
   },
   "summary": {
-    "average_score": 69.50166666666668,
-    "max_score": 85.22,
-    "min_score": 51.18
+    "average_score": 72.72366666666663,
+    "max_score": 94.3,
+    "min_score": 46.21
   }
 }

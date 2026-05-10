@@ -1,9 +1,10 @@
 import subprocess
+import os
+import signal
 from difflib import SequenceMatcher
 
 # -------- Test Case Evaluation --------
-def test_case_score(executable, test_cases):
-    passed = 0
+def test_case_score(executable, test_cases, timeout=5):
     total_weight = 0
     score = 0
 
@@ -15,13 +16,17 @@ def test_case_score(executable, test_cases):
                 executable,
                 input=inp,
                 text=True,
-                capture_output=True
+                capture_output=True,
+                timeout=timeout  # Kill process if it runs longer than timeout seconds
             )
 
             if result.stdout.strip() == expected.strip():
                 score += weight
 
-        except:
+        except subprocess.TimeoutExpired:
+            # Student code ran too long (infinite loop). Skip this test case.
+            pass
+        except Exception:
             pass
 
     return (score / total_weight) * 100 if total_weight else 0

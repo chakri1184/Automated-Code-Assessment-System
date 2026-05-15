@@ -1,7 +1,7 @@
+from .ast_utils import extract_signature
+from difflib import SequenceMatcher
 import subprocess
 import os
-import signal
-from difflib import SequenceMatcher
 
 # -------- Test Case Evaluation --------
 def test_case_score(executable, test_cases, timeout=5):
@@ -17,14 +17,13 @@ def test_case_score(executable, test_cases, timeout=5):
                 input=inp,
                 text=True,
                 capture_output=True,
-                timeout=timeout  # Kill process if it runs longer than timeout seconds
+                timeout=timeout
             )
 
             if result.stdout.strip() == expected.strip():
                 score += weight
 
         except subprocess.TimeoutExpired:
-            # Student code ran too long (infinite loop). Skip this test case.
             pass
         except Exception:
             pass
@@ -32,8 +31,21 @@ def test_case_score(executable, test_cases, timeout=5):
     return (score / total_weight) * 100 if total_weight else 0
 
 
-# -------- Plagiarism Detection --------
+
+# -------- AST-Based Similarity (Plagiarism Detection) --------
 def plagiarism_score(code1, code2):
-    similarity = SequenceMatcher(None, code1, code2).ratio()
+    """
+    Detects logical similarity by comparing AST structural signatures.
+    This is resistant to variable renaming and reformatting.
+    """
+    sig1 = extract_signature(code1)
+    sig2 = extract_signature(code2)
+    
+    if not sig1 or not sig2:
+        # Fallback to text similarity if AST fails
+        similarity = SequenceMatcher(None, code1, code2).ratio()
+    else:
+        similarity = SequenceMatcher(None, sig1, sig2).ratio()
+        
     originality = (1 - similarity) * 100
-    return originality
+    return originality

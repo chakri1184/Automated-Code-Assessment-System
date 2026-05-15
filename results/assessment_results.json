@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-10T12:00:34.622682",
+  "timestamp": "2026-05-15T11:43:32.159185",
   "total_submissions": 30,
   "successful_compilations": 24,
   "failed_compilations": 6,
@@ -10,9 +10,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 4.85
+        "originality": 0.0
       },
-      "final_score": 80.97,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -30,15 +30,15 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 71.52
+        "originality": 0.0
       },
-      "final_score": 94.3,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
         "Syntax is mostly correct.",
         "Good handling of test cases.",
-        "Code originality is acceptable.",
+        "High similarity detected. Try to write original code.",
         "Overall performance is excellent."
       ],
       "compilation_status": "Success",
@@ -47,12 +47,12 @@
     "student03": {
       "student_id": "student03",
       "scores": {
-        "structure": 34.38,
+        "structure": 0.0,
         "syntax": 70,
         "test_cases": 0,
         "originality": 56.68
       },
-      "final_score": 46.21,
+      "final_score": 39.34,
       "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
@@ -63,38 +63,38 @@
         "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'rev'\n    3 |     int n rev = 0;\n      |           ^~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: error: 'rev' undeclared (first use in this function)\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:3:11: note: each undeclared identifier is reported only once for each function it appears in\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student03.c:4:17: error: 'n' undeclared (first use in this function)\n    4 |     scanf(\"%d\",&n);\n      |                 ^\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student03.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student03.c:3:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'rev'\n    3 |     int n rev = 0;\n      |           ^~~\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student03.c:3:11: error: 'rev' undeclared (first use in this function)\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student03.c:3:11: note: each undeclared identifier is reported only once for each function it appears in\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student03.c:4:17: error: 'n' undeclared (first use in this function)\n    4 |     scanf(\"%d\",&n);\n      |                 ^\n"
     },
     "student04": {
       "student_id": "student04",
       "scores": {
-        "structure": 35.94,
+        "structure": 0.0,
         "syntax": 90,
         "test_cases": 0,
         "originality": 51.2
       },
-      "final_score": 53.43,
-      "category": "Average",
+      "final_score": 46.24,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
         "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student04.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student04.c:4:19: error: expected ';' before 'printf'\n    4 |     scanf(\"%d\",&n)\n      |                   ^\n      |                   ;\n    5 |     printf(\"%d\", rev);\n      |     ~~~~~~         \n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student04.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student04.c:4:19: error: expected ';' before 'printf'\n    4 |     scanf(\"%d\",&n)\n      |                   ^\n      |                   ;\n    5 |     printf(\"%d\", rev);\n      |     ~~~~~~         \n"
     },
     "student05": {
       "student_id": "student05",
       "scores": {
-        "structure": 93.75,
+        "structure": 100.0,
         "syntax": 100,
         "test_cases": 0.0,
-        "originality": 30.7
+        "originality": 8.04
       },
-      "final_score": 64.89,
+      "final_score": 61.61,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -109,15 +109,15 @@
     "student06": {
       "student_id": "student06",
       "scores": {
-        "structure": 65.62,
+        "structure": 56.25,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 32.08
+        "originality": 36.72
       },
-      "final_score": 67.04,
+      "final_score": 66.09,
       "category": "Average",
       "feedback": [
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "High similarity detected. Try to write original code.",
@@ -132,9 +132,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 23.41
+        "originality": 0.0
       },
-      "final_score": 72.18,
+      "final_score": 67.5,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -152,9 +152,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -172,9 +172,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 50.0,
-        "originality": 24.16
+        "originality": 0.0
       },
-      "final_score": 74.83,
+      "final_score": 70.0,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -189,15 +189,15 @@
     "student10": {
       "student_id": "student10",
       "scores": {
-        "structure": 65.62,
+        "structure": 56.25,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 32.49
+        "originality": 36.72
       },
-      "final_score": 67.12,
+      "final_score": 66.09,
       "category": "Average",
       "feedback": [
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "High similarity detected. Try to write original code.",
@@ -209,23 +209,23 @@
     "student11": {
       "student_id": "student11",
       "scores": {
-        "structure": 34.38,
+        "structure": 0.0,
         "syntax": 90,
         "test_cases": 0,
         "originality": 53.58
       },
-      "final_score": 53.59,
-      "category": "Average",
+      "final_score": 46.72,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
         "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student11.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student11.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student11.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student11.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
     },
     "student12": {
       "student_id": "student12",
@@ -233,9 +233,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -253,9 +253,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 50.0,
-        "originality": 24.16
+        "originality": 0.0
       },
-      "final_score": 74.83,
+      "final_score": 70.0,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -273,9 +273,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -293,9 +293,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -310,23 +310,23 @@
     "student16": {
       "student_id": "student16",
       "scores": {
-        "structure": 34.38,
+        "structure": 0.0,
         "syntax": 90,
         "test_cases": 0,
         "originality": 53.58
       },
-      "final_score": 53.59,
-      "category": "Average",
+      "final_score": 46.72,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
         "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student16.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student16.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student16.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student16.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
     },
     "student17": {
       "student_id": "student17",
@@ -334,9 +334,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 50.0,
-        "originality": 24.16
+        "originality": 0.0
       },
-      "final_score": 74.83,
+      "final_score": 70.0,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -354,9 +354,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -371,15 +371,15 @@
     "student19": {
       "student_id": "student19",
       "scores": {
-        "structure": 65.62,
+        "structure": 56.25,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 32.49
+        "originality": 36.72
       },
-      "final_score": 67.12,
+      "final_score": 66.09,
       "category": "Average",
       "feedback": [
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "High similarity detected. Try to write original code.",
@@ -394,9 +394,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -411,36 +411,36 @@
     "student21": {
       "student_id": "student21",
       "scores": {
-        "structure": 34.38,
+        "structure": 0.0,
         "syntax": 90,
         "test_cases": 0,
         "originality": 53.58
       },
-      "final_score": 53.59,
-      "category": "Average",
+      "final_score": 46.72,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
         "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student21.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student21.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student21.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student21.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
     },
     "student22": {
       "student_id": "student22",
       "scores": {
-        "structure": 65.62,
+        "structure": 56.25,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 32.49
+        "originality": 36.72
       },
-      "final_score": 67.12,
+      "final_score": 66.09,
       "category": "Average",
       "feedback": [
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "High similarity detected. Try to write original code.",
@@ -455,9 +455,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -475,9 +475,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -495,9 +495,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 50.0,
-        "originality": 24.16
+        "originality": 0.0
       },
-      "final_score": 74.83,
+      "final_score": 70.0,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -512,23 +512,23 @@
     "student26": {
       "student_id": "student26",
       "scores": {
-        "structure": 34.38,
+        "structure": 0.0,
         "syntax": 90,
         "test_cases": 0,
         "originality": 53.58
       },
-      "final_score": 53.59,
-      "category": "Average",
+      "final_score": 46.72,
+      "category": "Poor",
       "feedback": [
         " Code failed to compile. Test cases could not be evaluated.",
         "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "Code originality is acceptable.",
-        "Average performance. Needs improvement in some areas."
+        "Poor performance. Focus on fundamentals."
       ],
       "compilation_status": "Failed",
-      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student26.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpegjlucws\\student26.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
+      "error": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student26.c: In function 'main':\nC:\\Users\\HP\\AppData\\Local\\Temp\\tmpmlc2us12\\student26.c:4:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n    4 |     scanf(\"%d\",&n);\n      |     ^~~~~\n"
     },
     "student27": {
       "student_id": "student27",
@@ -536,9 +536,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -553,15 +553,15 @@
     "student28": {
       "student_id": "student28",
       "scores": {
-        "structure": 65.62,
+        "structure": 56.25,
         "syntax": 100,
         "test_cases": 37.5,
-        "originality": 32.49
+        "originality": 36.72
       },
-      "final_score": 67.12,
+      "final_score": 66.09,
       "category": "Average",
       "feedback": [
-        "Good code structure.",
+        "Improve code structure and modularity (use functions properly).",
         "Syntax is mostly correct.",
         "Your program is failing test cases. Check logic and edge cases.",
         "High similarity detected. Try to write original code.",
@@ -576,9 +576,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 50.0,
-        "originality": 24.16
+        "originality": 0.0
       },
-      "final_score": 74.83,
+      "final_score": 70.0,
       "category": "Average",
       "feedback": [
         "Good code structure.",
@@ -596,9 +596,9 @@
         "structure": 100.0,
         "syntax": 100,
         "test_cases": 100.0,
-        "originality": 22.87
+        "originality": 0.0
       },
-      "final_score": 84.57,
+      "final_score": 80.0,
       "category": "Good",
       "feedback": [
         "Good code structure.",
@@ -612,8 +612,8 @@
     }
   },
   "summary": {
-    "average_score": 72.72366666666663,
-    "max_score": 94.3,
-    "min_score": 46.21
+    "average_score": 68.06733333333332,
+    "max_score": 80.0,
+    "min_score": 39.34
   }
 }
